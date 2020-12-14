@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.row{
+    height: 100vh;
+}
+body, html {
+    height: 100%;
+}
+body{
+    background-image: url('bgimage2.jpg');
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    background-repeat: no-repeat;
+    font-family: monospace;
+    color: white;
+    
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title{
+    font-size: 100px;
+    -webkit-text-stroke: 1px black;
+}
+.description{
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+    padding-bottom:20px;
+}
+.description :hover{
+    background:rgba(0, 0, 0, 0.678);
+    color:white;
+    font-family: monospace;
+	background-size: 400% 400%;
+    animation: gradient 1s ease infinite;    
+}
+.subtitle{
+    font-family:Ubuntu,sans-serif;
+}
+.letter{
+    padding-left:10px;
+    padding-right:10px;
+}
+.title :hover{
+    background:rgba(255, 255, 255, 0.452);
+    color:black;
+    border-radius: 10px;
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
+}
+.btn-primary{
+    padding:8px 20px;
+}
+.bg{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ml15 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
